@@ -1,106 +1,72 @@
-
-
-HTML (HyperText Markup Language)
+HTML is the standard markup language for creating Web pages.
 
 What is HTML?
-
-HTML is the structure of a webpage — it defines the content and layout using tags.
-
-Basic Concepts
-
-HTML uses tags enclosed in < > to mark up elements.
-
-Elements have an opening tag <tag> and a closing tag </tag>.
-
-Common tags:
-
-<h1> to <h6> — headings
-
-<p> — paragraph
-
-<a> — hyperlink
-
-<img> — image
-
-<div> — division/container
-
-<ul>, <ol>, <li> — lists
-
-
-
-Simple Example
-
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+A Simple HTML Document
+Example
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Webpage</title>
+<title>Page Title</title>
 </head>
 <body>
-  <h1>Welcome to HTML!</h1>
-  <p>This is a paragraph of text.</p>
-  <a href="https://www.example.com">Visit Example</a>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
 </body>
 </html>
 
 
----
+Example Explained
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+What is an HTML Element?
+An HTML element is defined by a start tag, some content, and an end tag:
 
-CSS (Cascading Style Sheets)
+<tagname> Content goes here... </tagname>
+The HTML element is everything from the start tag to the end tag:
 
-What is CSS?
-
-CSS controls the appearance of HTML elements — colors, fonts, layout, spacing, and more.
-
-How to Use CSS?
-
-Inline: directly inside an HTML tag
-
-Internal: inside a <style> tag in the <head>
-
-External: in a separate .css file linked to HTML
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
 
-Basic CSS Syntax
+HTML History
+Since the early days of the World Wide Web, there have been many versions of HTML:
 
-selector {
-  property: value;
+Year	Version
+1989	Tim Berners-Lee invented www
+1991	Tim Berners-Lee invented HTML
+1993	Dave Raggett drafted HTML+
+1995	HTML Working Group defined HTML 2.0
+1997	W3C Recommendation: HTML 3.2
+1999	W3C Recommendation: HTML 4.01
+2000	W3C Recommendation: XHTML 1.0
+2008	WHATWG HTML5 First Public Draft
+2012	WHATWG HTML5 Living Standard
+2014	W3C Recommendation: HTML5
+2016	W3C Candidate Recommendation: HTML 5.1
+2017	W3C Recommendation: HTML5.1 2nd Edition
+2017	W3C Recommendation: HTML5.2
+
+
+CSS is the language we use to style an HTML document.
+
+CSS describes how HTML elements should be displayed.
+
+This tutorial will teach you CSS from basic to advanced.
+
+Drag and drop the correct property to set a green background color for a <div> element.
+div {
+  : green;
 }
-
-Example:
-
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: navy;
-  font-family: Arial, sans-serif;
-}
-
-p {
-  font-size: 16px;
-  color: #333333;
-}
-
-
----
-
-Putting HTML and CSS Together
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Styled Page</title>
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Verdana, sans-serif;
-    }
-    h1 {
-      color: darkgreen;
-    }
-    p {
-      color: #555555;
-      font-size: 18
-
-
